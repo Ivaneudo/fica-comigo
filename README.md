@@ -5,7 +5,12 @@
 
 ## 📱 O Aplicativo
 
-![Demonstração do Aplicativo](./assets/tela-do-app.png)
+<p align="center">
+  <img src="./assets/inicio.png" alt="Inicio" width="24%" />
+  <img src="./assets/guiado-simples.png" alt="Guiado Simples" width="24%" />
+  <img src="./assets/chat-voluntario.png" alt="Chat" width="24%" />
+  <img src="./assets/aterramento.png" alt="Aterramento" width="24%" />
+</p>
 
 ## 📖 Sobre o Projeto
 
@@ -63,6 +68,8 @@ fica-comigo/
     │   └── colors.ts            # Paleta anti-ansiedade
     └── types/
         └── navigation.ts        # Tipagem de rotas
+```
+
 
 ## ⚙️ Como Executar o Projeto
 
@@ -72,7 +79,7 @@ Siga os passos abaixo para rodar o aplicativo localmente:
    `git clone https://github.com/Ivaneudo/nome-do-repo.git`
 
 2. Instale as dependências (utilizamos o comando recomendado do Expo para garantir a compatibilidade do SDK):
-   `npx expo install`
+   `npx expo install @react-navigation/native @react-navigation/native-stack react-native-screens react-native-safe-area-context`
 
 3. Inicie o servidor de desenvolvimento:
    `npx expo start`
