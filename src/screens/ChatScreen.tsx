@@ -139,19 +139,75 @@ const styles = StyleSheet.create({
     paddingHorizontal: 16,
     gap: 8,
   },
-  statusDot: { width: 8, height: 8, borderRadius: 4, backgroundColor: colors.accentGreen },
-  bannerText: { color: colors.textSecondary, fontSize: 12, flex: 1 },
-  finishBtn: { backgroundColor: colors.surface, paddingHorizontal: 12, paddingVertical: 4, borderRadius: 8 },
-  finishBtnText: { color: colors.textPrimary, fontSize: 12, fontWeight: '600' },
-  chatArea: { padding: 16, gap: 12 },
-  bubble: { maxWidth: '80%', padding: 14, borderRadius: 18 },
-  userBubble: { alignSelf: 'flex-end', backgroundColor: colors.userBubble, borderBottomRightRadius: 4 },
-  volunteerBubble: { alignSelf: 'flex-start', backgroundColor: colors.volunteerBubble, borderBottomLeftRadius: 4 },
-  messageText: { color: colors.textPrimary, fontSize: 15, lineHeight: 21 },
-  typingIndicator: { paddingHorizontal: 16, color: colors.accentTeal, fontSize: 12, fontStyle: 'italic', marginBottom: 4 },
-  quickChips: { flexDirection: 'row', paddingHorizontal: 12, gap: 8, marginBottom: 8 },
-  chip: { backgroundColor: colors.cardBackground, paddingVertical: 6, paddingHorizontal: 12, borderRadius: 16 },
-  chipText: { color: colors.textSecondary, fontSize: 12 },
+  statusDot: { 
+    width: 8, 
+    height: 8, 
+    borderRadius: 4, 
+    backgroundColor: colors.accentGreen 
+  },
+  bannerText: { 
+    color: colors.textSecondary, 
+    fontSize: 12, 
+    flex: 1 
+  },
+  finishBtn: { 
+    backgroundColor: colors.surface, 
+    paddingHorizontal: 12, 
+    paddingVertical: 4, 
+    borderRadius: 8 
+  },
+  finishBtnText: { 
+    color: colors.textPrimary, 
+    fontSize: 12, 
+    fontWeight: '600' 
+  },
+  chatArea: { 
+    padding: 16, 
+    gap: 12 
+  },
+  bubble: {
+    maxWidth: '80%', 
+    padding: 14, 
+    borderRadius: 18 
+  },
+  userBubble: { 
+    alignSelf: 'flex-end', 
+    backgroundColor: colors.userBubble, 
+    borderBottomRightRadius: 4 
+  },
+  volunteerBubble: { 
+    alignSelf: 'flex-start', 
+    backgroundColor: colors.volunteerBubble, 
+    borderBottomLeftRadius: 4 
+  },
+  messageText: { 
+    color: colors.textPrimary, 
+    fontSize: 15, 
+    lineHeight: 21 
+  },
+  typingIndicator: { 
+    paddingHorizontal: 16, 
+    color: colors.accentTeal, 
+    fontSize: 12, 
+    fontStyle: 'italic', 
+    marginBottom: 4 
+  },
+  quickChips: { 
+    flexDirection: 'row', 
+    paddingHorizontal: 12, 
+    gap: 8, 
+    marginBottom: 8 
+  },
+  chip: { 
+    backgroundColor: colors.cardBackground, 
+    paddingVertical: 6, 
+    paddingHorizontal: 12, 
+    borderRadius: 16 
+  },
+  chipText: { 
+    color: colors.textSecondary, 
+    fontSize: 12 
+  },
   inputContainer: {
     flexDirection: 'row',
     padding: 12,

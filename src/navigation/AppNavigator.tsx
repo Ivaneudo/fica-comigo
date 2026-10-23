@@ -10,10 +10,10 @@ const Stack = createNativeStackNavigator();
 export const AppNavigator = () => {
   return (
     <Stack.Navigator screenOptions={{ headerShown: false, animation: 'fade' }}>
-      <Stack.Screen name="CheckIn" component={CheckInScreen} />
+      <Stack.Screen name="CheckIn"    component={CheckInScreen} />
       <Stack.Screen name="Regulation" component={RegulationScreen} />
-      <Stack.Screen name="Chat" component={ChatScreen} />
-      <Stack.Screen name="NextSteps" component={NextStepsScreen} />
+      <Stack.Screen name="Chat"       component={ChatScreen} />
+      <Stack.Screen name="NextSteps"  component={NextStepsScreen} />
     </Stack.Navigator>
   );
 };

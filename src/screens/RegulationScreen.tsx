@@ -77,17 +77,55 @@ export const RegulationScreen = ({ route, navigation }: any) => {
 };
 
 const styles = StyleSheet.create({
-  safeArea: { flex: 1, backgroundColor: colors.background },
-  container: { flex: 1, padding: 20, justifyContent: 'space-between' },
-  toggleBar: { flexDirection: 'row', backgroundColor: colors.cardBackground, borderRadius: 12, padding: 4 },
-  toggleBtn: { flex: 1, paddingVertical: 10, alignItems: 'center', borderRadius: 8 },
+  safeArea: { 
+    flex: 1, 
+    backgroundColor: colors.background 
+  },
+  container: { 
+    flex: 1, 
+    padding: 20, 
+    justifyContent: 'space-between' 
+  },
+  toggleBar: { 
+    flexDirection: 'row', 
+    backgroundColor: colors.cardBackground, 
+    borderRadius: 12, 
+    padding: 4 
+  },
+  toggleBtn: { 
+    flex: 1, 
+    paddingVertical: 10, 
+    alignItems: 'center', 
+    borderRadius: 8 
+  },
   toggleBtnActive: { backgroundColor: colors.surface },
-  toggleText: { color: colors.textSecondary, fontWeight: '600', fontSize: 13 },
+  toggleText: { 
+    color: colors.textSecondary, 
+    fontWeight: '600', 
+    fontSize: 13 
+  },
   toggleTextActive: { color: colors.textPrimary },
-  exerciseArea: { flex: 1, justifyContent: 'center', alignItems: 'center' },
-  infoGuide: { color: colors.textSecondary, textAlign: 'center', fontSize: 14, marginTop: 16, paddingHorizontal: 20 },
-  groundingArea: { paddingVertical: 16, gap: 10 },
-  stepTitle: { color: colors.textPrimary, fontSize: 16, fontWeight: '600', marginBottom: 6 },
+  exerciseArea: { 
+    flex: 1, 
+    justifyContent: 'center', 
+    alignItems: 'center' 
+  },
+  infoGuide: { 
+    color: colors.textSecondary, 
+    textAlign: 'center', 
+    fontSize: 14, 
+    marginTop: 16, 
+    paddingHorizontal: 20 
+  },
+  groundingArea: { 
+    paddingVertical: 16, 
+    gap: 10 
+  },
+  stepTitle: { 
+    color: colors.textPrimary, 
+    fontSize: 16, 
+    fontWeight: '600', 
+    marginBottom: 6 },
   stepCard: {
     backgroundColor: colors.cardBackground,
     padding: 14,
@@ -98,12 +136,32 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: '#263456',
   },
-  activeStepCard: { borderColor: colors.accentTeal, backgroundColor: '#203052' },
-  badge: { width: 34, height: 34, borderRadius: 17, backgroundColor: colors.surface, justifyContent: 'center', alignItems: 'center' },
+  activeStepCard: { 
+    borderColor: colors.accentTeal, 
+    backgroundColor: '#203052'
+  },
+  badge: { 
+    width: 34, 
+    height: 34, 
+    borderRadius: 17, 
+    backgroundColor: colors.surface, 
+    justifyContent: 'center', 
+    alignItems: 'center' 
+  },
   badgeActive: { backgroundColor: colors.accentTeal },
-  badgeText: { color: colors.textPrimary, fontWeight: '700' },
-  stepDesc: { color: colors.textSecondary, flex: 1, fontSize: 14 },
-  stepDescActive: { color: colors.textPrimary, fontWeight: '500' },
+  badgeText: { 
+    color: colors.textPrimary, 
+    fontWeight: '700' 
+  },
+  stepDesc: { 
+    color: colors.textSecondary, 
+    flex: 1, 
+    fontSize: 14 
+  },
+  stepDescActive: { 
+    color: colors.textPrimary, 
+    fontWeight: '500' 
+  },
   nextButton: {
     backgroundColor: colors.accentTeal,
     paddingVertical: 16,
@@ -111,5 +169,9 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     marginTop: 10,
   },
-  nextButtonText: { color: '#0F172A', fontWeight: '700', fontSize: 16 },
+  nextButtonText: { 
+    color: '#0F172A', 
+    fontWeight: '700', 
+    fontSize: 16 
+  },
 });

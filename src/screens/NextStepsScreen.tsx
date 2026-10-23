@@ -63,10 +63,27 @@ export const NextStepsScreen = ({ navigation }: any) => {
 };
 
 const styles = StyleSheet.create({
-  safeArea: { flex: 1, backgroundColor: colors.background },
-  content: { flex: 1, padding: 24, justifyContent: 'space-between' },
-  headline: { fontSize: 24, fontWeight: '700', color: colors.textPrimary, marginTop: 12 },
-  subheadline: { fontSize: 15, color: colors.textSecondary, marginTop: 8, lineHeight: 22 },
+  safeArea: { 
+    flex: 1, 
+    backgroundColor: colors.background 
+  },
+  content: { 
+    flex: 1, 
+    padding: 24, 
+    justifyContent: 'space-between' 
+  },
+  headline: { 
+    fontSize: 24, 
+    fontWeight: '700', 
+    color: colors.textPrimary, 
+    marginTop: 12 
+  },
+  subheadline: { 
+    fontSize: 15, 
+    color: colors.textSecondary, 
+    marginTop: 8, 
+    lineHeight: 22 
+  },
   cardContainer: { gap: 14 },
   actionCard: {
     backgroundColor: colors.cardBackground,
@@ -84,8 +101,16 @@ const styles = StyleSheet.create({
   },
   cardEmoji: { fontSize: 24 },
   cardDetails: { flex: 1 },
-  cardTitle: { fontSize: 16, fontWeight: '600', color: colors.textPrimary },
-  cardDesc: { fontSize: 13, color: colors.textSecondary, marginTop: 2 },
+  cardTitle: { 
+    fontSize: 16, 
+    fontWeight: '600', 
+    color: colors.textPrimary 
+  },
+  cardDesc: { 
+    fontSize: 13, 
+    color: colors.textSecondary, 
+    marginTop: 2 
+  },
   footerButtons: { gap: 12 },
   restartButton: {
     backgroundColor: colors.surface,
@@ -93,5 +118,9 @@ const styles = StyleSheet.create({
     borderRadius: 12,
     alignItems: 'center',
   },
-  restartText: { color: colors.textPrimary, fontWeight: '600', fontSize: 15 },
+  restartText: { 
+    color: colors.textPrimary, 
+    fontWeight: '600', 
+    fontSize: 15 
+  },
 });
